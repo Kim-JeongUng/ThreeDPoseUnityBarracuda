@@ -217,12 +217,12 @@
     <Compile Include="Assets\VRM\UniVRM\Scripts\LookAt\VRMLookAtBlendShapeApplyer.cs" />
     <Compile Include="Assets\VRM\UniJSON\Scripts\Json\JsonSchema.cs" />
     <Compile Include="Assets\VRM\UniHumanoid\Scripts\BoneMapping.cs" />
-    <Compile Include="Assets\VRM\UniGLTF\Scripts\Format\ExtensionsAndExtras\KHR_draco_mesh_compression.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\IO\AnimationCurveData.cs" />
     <Compile Include="Assets\VRM\UniJSON\Scripts\ListTreeNode\ListTreeNodeArrayExtensions.cs" />
     <Compile Include="Assets\VRM\UniVRM\Scripts\BlendShape\BlendShapeClip.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\IO\TextureIO.cs" />
     <Compile Include="Assets\VRM\UniJSON\Scripts\Utf8String\Utf8StringExtensions.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Scripts\Format\ExtensionsAndExtras\KHR_draco_mesh_compression.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\IO\AnimationExporter.cs" />
     <Compile Include="Assets\VRM\ShaderProperty\Runtime\GLTF\Unlit_Color.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\Format\glTFSkin.cs" />
@@ -266,10 +266,10 @@
     <Compile Include="Assets\VRM\UniGLTF\Scripts\Format\glTFMesh.cs" />
     <Compile Include="Assets\VRM\UniVRM\Scripts\LookAt\VRMLookAtBoneApplyer.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\Format\glTFNode.cs" />
-    <Compile Include="Assets\VRM\UniVRM\Scripts\BlendShape\BlendShapeClipHandler.cs" />
     <Compile Include="Assets\VRM\MToon\MToon\Scripts\MToonDefinition.cs" />
     <Compile Include="Assets\VRM\UniVRM\Scripts\LookAt\OffsetOnTransform.cs" />
     <Compile Include="Assets\VRM\UniJSON\Scripts\Toml\TomlValue.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Scripts\BlendShape\BlendShapeClipHandler.cs" />
     <Compile Include="Assets\VRM\UniVRM\Scripts\FirstPerson\VRMFirstPersonCameraManager.cs" />
     <Compile Include="Assets\VRM\ShaderProperty\Runtime\GLTF\Standard.cs" />
     <Compile Include="Assets\VRM\UniGLTF\Scripts\IO\MeshWithMaterials.cs" />
@@ -576,22 +576,22 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.20f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.barracuda@3.0.0\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.20f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -940,6 +940,9 @@
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.20f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Barracuda.ONNX">
+      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.ONNX.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.iOSBLAS">
       <HintPath>Library\ScriptAssemblies\Unity.Barracuda.iOSBLAS.dll</HintPath>
